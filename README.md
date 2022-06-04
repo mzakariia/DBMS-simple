@@ -1,5 +1,18 @@
 # DBMS-simple
-This a GUC semester 6 Databases 2 course project.
-The objective of this project is to build a simplified database management system.
-The system stores the tables in pages on disk and doesn't use indices.
-A future version will be updated with a grid index implementation.
+A simple implementation of a DB engine in Java, supporting creation of tables, inserting, updating and deleting records, selecting from tables and also supports creating grid indices on columns in table and supports previously mentioned operations using the indices for optimizing the performance.
+
+Bounus features added
+## Partial queries support
+
+partial insert
+partial delete
+partial update
+partial select
+Printing the tables and the indices using the printTable(String) and the printIndexFromTable(int, String) methods
+
+## Contributors
+Ismail El Shinnawy 46-4847
+
+Ali Amr 46-2960
+
+Mohamed Zakaria 46-6182
